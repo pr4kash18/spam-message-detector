@@ -3,7 +3,7 @@ import joblib
 
 # Page Config
 st.set_page_config(
-    page_title="Spam Detector",
+    page_title="Spam Hunter",
     page_icon="📩",
     layout="centered"
 )
@@ -74,5 +74,4 @@ if st.button("🔍 Check Message", use_container_width=True):
             st.success("✅ NORMAL MESSAGE")
 
 # Footer
-st.markdown("---")
-st.caption("Built by Chandra Prakash Choubisa!🙏")
+st.markdown("---")          
